@@ -8,9 +8,9 @@ const himpunan = [20, 18, 2, 7, 10,7, 12, 15, 1, 3, 5, 8, 13, 4, 14, 6, 19, 9, 1
 
 
 function seleksiNilai( nilaiAwal, nilaiAkhir, dataArray){       
-    let keluaran = [];              //Revisi: Variabel lokal untuk digunakan secara lokal.
+    let keluaran = [];
 
- //Validasi                           Revisi: Penyederhanaan validasi
+ //Validasi
     if (typeof nilaiAwal !== "number"){
         keluaran.push("Batas Awal harus berupa number!")
     }

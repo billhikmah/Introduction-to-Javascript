@@ -1,6 +1,6 @@
 //Declare & Assignment
-const key = "an";
-const limit = 3;
+const word = "an";
+const length = 3;
 const source = [
     "Abigail", "Alexandra", "Alison",
     "Amanda", "Angela", "Bella",
@@ -24,5 +24,5 @@ const menyaring = function(kunci, sumber){
 }
 
 //Output
-console.log(memilah(key, limit, menyaring))
+console.log(memilah(word, length, menyaring))
 
