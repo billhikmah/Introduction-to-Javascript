@@ -1,5 +1,5 @@
 //Deklarasi dan Assignment
-let printSquare = 7;
+let printSquare = 15;
 let square = "";
 
 //Validasi
